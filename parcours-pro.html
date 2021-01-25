@@ -1,38 +1,108 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>CV</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <link rel="stylesheet" href="src/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2eea148728.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
     <div class="block">
-      <header class="header">
-        <a href="index.html" class="header-logo">CV
+        <header class="header">
+            <a href="index.html" class="header-logo">CV
           <nav class="header-menu">
             <a href="index.html">Acceuil</a>
             <a href="parcours-formation.html">Parcours de formation</a>
             <a href="parcours-pro.html">Parcours professionnel</a>
             <a href="hobbies.html">Hobbies</a>
             <a href="contact.html">Contact</a>
-          </nav>
-        </a>
-      </header>
-    </div>  
-    <div class="block">
-      <div class="banner">
-        <img src="src/img/ban-pro.png" alt="ordinateur portable" class="banner-image">
-        <div class="banner-content">
-          <h1 class="title is-1">Elyesse Ben Hadj</h1>
-          <h2 class="subtitle is-2">Parcours professionnel</h2>
-          <button class="button is-link" onclick="window.location.href = 'contact.html';">Contactez moi</button>
-        </div>
-      </div>
+            </nav>
+            </a>
+        </header>
     </div>
+    <div class="block">
+        <div class="banner">
+            <img src="src/img/ban-pro.png" alt="ordinateur portable" class="banner-image">
+            <div class="banner-content">
+                <h1 class="title is-1">Elyesse Ben Hadj</h1>
+                <h2 class="subtitle is-2">Parcours professionnel</h2>
+                <button class="button is-link" onclick="window.location.href = 'contact.html';">Contactez moi</button>
+            </div>
+        </div>
+    </div>
+    <section id="experience">
+        <div class="container">
+            <div class="white-divider"></div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Artek Multimédia</h3>
+                                <h4>Stagiaire graphiste</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2013-2015</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Numérisation de diapositive</p>
+                                <p>Retouche photo</p>
+                                <p>Conception d’un logotype</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Blue-Line</h3>
+                                <h4>Stagiaire photographe assistant</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2010-2013</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Prises de vue</p>
+                                <p>Retouche photo</p>
+                                <p>Traitement numérique</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Concept-Pub</h3>
+                                <h4>Stagiaire maquettiste</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2007-2010</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Réalisation de flyers</p>
+                                <p>Carte de visite</p>
+                                <p>Conception de logotype</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="src/js/main.js"></script>
-  </body>
-</html> 
+</body>
+
+</html>
